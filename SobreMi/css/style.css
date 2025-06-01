@@ -1,0 +1,21 @@
+
+.AboutMe{
+    padding-top: 50px;
+
+}
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    padding: 10px;
+}
+.separador{
+    margin:0 5px 5px 0;
+    border: 1px solid  rgb(0, 26, 255);
+
+}
+
+.boton{
+    padding-top: 10px;
+}

@@ -1,0 +1,15 @@
+.container-fluid{
+    background-color: #222;
+    color: white;
+}
+.container1{
+    background-color: rgb(13, 148, 103);
+    color: white;
+    opacity: 0.8;
+}
+
+.container2{
+    background-color: rgb(13, 132, 148);
+    color: white;
+    opacity: 0.8;
+}
