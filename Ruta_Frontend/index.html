@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!--Libreria de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!--Integramos CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Integramos BOOTSTRAP ICON-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+    <body>
+        <!--Integramos el navegador con JS-->
+         <div id="navbar"></div>
+
+        <!--Contenido de la Web-->
+        <main>
+            <section class="container p-4">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-3" >
+                        <div class="card" id="contenido"> 
+                            <h4>Contenido</h4>
+                           
+                            <div id="list-example" class="list-group" >
+                                <a class="list-group-item list-group-item-action" href="#camino">Camino Frontend</a>
+                                <a class="list-group-item list-group-item-action" href="#aprender">Aprender</a>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <article class="col" >
+                       
+                        <div class="card p-4">
+                             <h3>¿Qué es el Front-end?</h3>
+                            <p class="texto">El Frontend es la parte visual de un sitio web o aplicación, todo lo que los usuarios ven y con lo que interactúan. 
+                            Incluye diseño, estructura, animaciones, accesibilidad y experiencia de usuario. Es donde la creatividad y la lógica se encuentran.</p>
+                                    
+                            <img src="img/front-end.png" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title">¿Por qué aprender Frontend?</h5>
+                                <p class="texto">En la era digital, las interfaces son el puente entre el usuario y la tecnología. 
+                                    Convertirse en Frontend Developer no solo significa dominar lenguajes, sino entender cómo conectar al usuario con una experiencia visual funcional, intuitiva y atractiva.</p>
+                            </div>
+
+                            <h5 >¿Qué camino debo seguir?</h5>
+                            <ul class="list-group list-group-flush" id="camino">
+                                <li class="list-group-item">Dominar los lenguajes fundamentales (HTML, CSS, JavaScript).</li>
+                                <li class="list-group-item">Conocer y aplicar librerías útiles.</li>
+                                <li class="list-group-item">Aprender frameworks modernos.</li>
+                                <li class="list-group-item">Tener nociones de diseño UI/UX.</li>
+                                <li class="list-group-item">Saber usar herramientas de diseño y prototipado.</li>
+                                <li class="list-group-item">Comprender la importancia de cada elemento visual.</li>
+                            </ul>
+                           
+                            <div class="card-body">
+                                <h5 id="aprender">¿Donde lo puedo aprender?</h5>
+                                <img src="img/Masterminf.png"  class="card-img-top" alt=""  width="400px">
+                                <a href="https://mastermind.ac/inicio " target="_blank" > <br>MASTERMIND</a> <!--Pequeña validacion con un link(abrir otra pestaña)-->
+                                <p>Mastermind 
+                                <br>Es una plataforma con una gran variedad de lineas de aprendizaje, convirtiendose perfecta para aprender la ruta a Front-end
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </article>
+                    
+                    
+                </div>    
+            </section>
+        </main>
+
+        <!--Incluimos footer-->
+        <div id="footer"></div>
+        <!--LLamamos al JS-->
+        <script src="js/include.js"></script>
+        
+        <!--Libreria de Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    
+    </body>
+</html>

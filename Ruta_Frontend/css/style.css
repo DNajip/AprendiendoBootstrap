@@ -1,0 +1,26 @@
+.sticky-top {
+  position: sticky !important;
+  top: 0;
+  z-index: 1020;
+  background-color: #212529; /* Asegura que tenga color */
+}
+
+body{
+    background-color: rgb(217, 240, 240);
+}
+
+#contenido{
+    background-color: rgb(235, 235, 235);
+}
+
+/*le damos justificaci[on a los textos*/
+.texto{
+    text-align: justify;
+}
+
+
+
+/*le damos justificaci[on a la imagen*/
+.container-fluid{
+    justify-items: center;
+}

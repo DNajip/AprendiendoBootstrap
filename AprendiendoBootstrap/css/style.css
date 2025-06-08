@@ -1,0 +1,14 @@
+body{
+    background-color: #222;
+}
+.titulo{
+    color: white;
+}
+article{
+    background-color:aliceblue;
+    border-radius: 10px;
+}
+
+.section{
+    background-color: aliceblue;
+}
