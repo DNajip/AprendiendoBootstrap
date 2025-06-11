@@ -1,0 +1,37 @@
+
+body{
+    color: antiquewhite;
+}
+
+.title{
+  font-size: 50px;
+  color: aliceblue;
+  
+}
+
+.img{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 0, 0);
+   
+  border-image: conic-gradient(from var(--angle), #f00 0deg 90deg, #0f0 90deg 180deg, #00f 180deg 270deg, #0ff 270deg 360deg) 1;
+
+  /* Establece el gradiente como borde */
+  animation: rotar-borde 2s linear infinite; /* Define la animación */
+}
+
+/* Variable para el ángulo del gradiente */
+:root {
+  --angle: 0deg;
+}
+
+/* Animación del borde */
+@keyframes rotar-borde {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
