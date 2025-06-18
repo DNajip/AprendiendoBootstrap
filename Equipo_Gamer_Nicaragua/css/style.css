@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar{
+    background-color: rgb(42, 78, 241);
+    color: aliceblue;
+    
+}
+
+.Fondo {
+ background-color: rgba(96, 9, 9, 0.999);
+
+}
+.Fondo2 {
+ background-color: rgba(28, 28, 255, 0.999);
+
+}
+
+
+.btn{
+    background-color: blue;
+}
