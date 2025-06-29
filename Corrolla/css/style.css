@@ -1,0 +1,37 @@
+body{
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 100px;
+
+}
+.container2{
+    background-color: rgba(36, 36, 44, 0.959);
+}
+.container4{
+    background-color:  rgba(36, 36, 44, 0.959);
+    background-image: url(/img/Carrusel5.png);
+    background-repeat: no-repeat; /*Evita que se repita la imagen*/
+    background-size: cover; /*ajusta la imgen para cubrir todo el fondo*/
+    background-position: center; /* Centra la imagen */
+}
+.img{
+    border-radius: 10px;
+}
+
+.container5{
+    background-color:  rgba(36, 36, 44, 0.959);
+}
+
+.custom-popover {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+}
+
+.custom-popover .popover-header {
+  background-color: #f8f9fa !important;
+  color: black !important;
+}
+
+.custom-popover .popover-body {
+  color: black !important;
+}

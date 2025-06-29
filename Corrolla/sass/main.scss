@@ -1,0 +1,9 @@
+//Modificamos el color de Primary
+$deeppurple: #ff0000;
+$primary: $deeppurple;
+
+//Modificamos el color del texto
+$colortext: #f9f6f6;
+$body-color: $colortext; 
+//Importajndo la librerias para realizar modificaciones
+@import '../node_modules/bootstrap/scss/bootstrap';

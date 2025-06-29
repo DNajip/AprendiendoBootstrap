@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/contacto.css">
+    <!--Link para Bootstrap-->
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body class=" bg-dark" data-bs-theme="dark">
+
+ 
+    
+   
+        <section class="container  mt-5">
+            <a class="nav-link active text-center " aria-current="page" href="index.html"><img src="img/logo.png" alt="" width="200px"></a>
+            <br>
+            <a href="index.html" class="btn btn-outline-primary">Volver al Inicio</a>
+            <h2 class="text-center">Se solicita el llenado de este pequeño formulario con la finalidad de que un vendedor se comunique con usted lo antes posible. Favor completar todos los campos</h2>
+            
+            <form class="needs-validation" novalidate=""> 
+                <div class="row g-3"> 
+                    <div class="col-sm-6"> 
+                        <label for="firstName" class="form-label">Nombre</label> 
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required=""> 
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div> 
+                    </div> 
+                    <div class="col-sm-6"> 
+                        <label for="lastName" class="form-label">Apellido</label> 
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required=""> 
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                
+                        </div> 
+                    </div> 
+                    
+                    <div class="col-6"> 
+                        <label for="email" class="form-label">Email 
+                            <span class="text-body-secondary">(Optional)</span>
+                        </label> <input type="email" class="form-control" id="email" placeholder="you@example.com"> 
+                        <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                
+                        </div> 
+                    </div> 
+                    
+                    <div class="col-md-4"> 
+                        <label for="state" class="form-label">Pais</label>  
+                          <select class="form-select" id="state" required=""> 
+                            <option value="">Selecciona Pais...</option> 
+                            <option>Nicaragua</option> 
+                            <option>Mexico</option> 
+                         </select> 
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        
+                        </div> 
+                    </div> 
+                    <div class="col-md-5"> 
+                        <label for="country" class="form-label">Ciudad</label> 
+                        <select class="form-select" id="country" required=""> 
+                            <option value="">Selecciona...</option> 
+                            <option>Managua</option> 
+                        </select> 
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                
+                        </div> 
+                    </div> 
+                    <div class="col-md-3"> 
+                        <label for="zip" class="form-label">Numero Telefonico</label> 
+                        <input type="text" class="form-control" id="zip" placeholder="" required=""> 
+                        <div class="invalid-feedback">
+                            Zip code required.
+                
+                        </div> 
+                    </div> 
+                </div> 
+                    <hr class="my-4"> 
+                    <h4 class="mb-3">Modelo de Toyota Corolla </h4> 
+                    <div class="my-3"> 
+                        <div class="form-check"> 
+                            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required=""> 
+                            <label class="form-check-label" for="credit">Totoya Corolla 2.0 XLI CVT</label> 
+                        </div> <div class="form-check"> 
+                            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required=""> 
+                            <label class="form-check-label" for="debit">Totoya Corolla Hev 1.8 XEI eCVT</label> 
+                        </div> 
+                        <div class="form-check"> 
+                            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required=""> 
+                            <label class="form-check-label" for="paypal">Totoya Corolla GR-Sport 2.0</label> 
+                        </div> 
+                    </div> 
+                    
+                    </div> 
+                    <hr class="my-4"> 
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar datos</button> 
+            </form>
+        
+        </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
